@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+blockquote {
+  border-left: 6px solid #DDD;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+
+  &.coach {
+    background-color: #FEFFE0;
+    p {
+      font-weight: 400;
+    }
+  }
+}
+
+cite:before {
+  content: "-";
+}
+
+a {
+  color: #5F8CC7;
+  text-decoration: none;
+}
